@@ -4,6 +4,6 @@ def calculate_average(mark_one, mark_two):
         raise TypeError("invalid argument type")
         
     if not 0 <= mark_one <= 100 or not 0 <= mark_two <= 100:
-        raise ValueError("argument outside permitted range")
+        raise ValueError("argument outside permitted rage")
 
     return (mark_one + mark_two) / 2
